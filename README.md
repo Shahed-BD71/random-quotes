@@ -4,5 +4,6 @@ Let's make the difference, keep the ball rolling....
 
 #API LINK: https://api.quotable.io/random?minLength=100&maxLength=140
 
-Link:
+LIve Link: https://shahed-bd71.github.io/random-quotes/
+
 # random-quotes
