@@ -40,10 +40,6 @@ body {
   max-width: 600px;
 }
 
-#quote {
-  height: 250px;
-}
-
 .container .author {
   font-size: 20px;
   font-weight: 600;
