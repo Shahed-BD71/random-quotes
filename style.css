@@ -23,7 +23,6 @@ body {
   padding: 50px 20px;
   text-align: center;
   max-width: 90%;
-  height: 85vh;
   width: 600px;
 }
 
@@ -39,6 +38,10 @@ body {
   line-height: 40px;
   margin: 50px auto;
   max-width: 600px;
+}
+
+#quote {
+  height: 250px;
 }
 
 .container .author {
