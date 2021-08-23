@@ -1,4 +1,5 @@
 const quotes = document.getElementById("quote");
+const authors = document.getElementById("author");
 const quoteBtn = document.getElementById('quoteBtn');
 
 quoteBtn.addEventListener('click', () => generateQuote());
@@ -32,6 +33,7 @@ async function generateQuote() {
     const res = await fetch(url, config);
     const data = await res.json();
     quotes.innerHTML = data.content;
+    authors.innerHTML = data.author;
   } catch (err) {
     quotes.innerHTML = `<p><strong>${err.name}</strong></p><p>${err.message}</p>`;
   }
